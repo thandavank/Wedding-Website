@@ -1,0 +1,594 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+body{
+    font-family: "Fredoka", sans-serif;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/* Menu */
+
+header{
+ padding: 20px 0 0 20px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.logo{
+    float: left;
+}
+.menus{
+    display: inline-block;
+}
+.menus li{
+    float: left;
+    margin: 0 20px ;
+}
+.menus li a{
+    font-size: 18px;
+    color: #535151;
+    text-transform: capitalize;
+    display:inline-block ;
+    padding: 15px 0;
+
+}
+.menus li.active a{
+    color: #000000;
+    font-weight: 900px;
+}
+.menus li:hover a{
+    color: #000000;
+}
+
+.button{
+    float: right;
+}
+
+.button a{
+    font-size: 18px;
+    /* float: right; */
+    background-color: tomato;
+    padding: 12px 24px;
+    color: white;
+    border-radius: 3px;
+    text-transform: capitalize;
+    display: inline-block;
+}
+
+/* Banner */
+
+.banner{
+    background-color: #e5f4fe;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+
+.banner-right{
+    width: 50%;
+    float: left;
+    margin-top: 90px;
+    /* padding-left:20px; */
+}
+.banner-right h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 55px;
+    text-transform: capitalize;
+    width: 90%;
+    line-height: 67px;
+    margin-bottom: 5px;
+}
+.banner-right span{
+    color: #f86328;
+}
+.banner-right p{
+    font-size: 18px;
+    color: #535151;
+    width: 100%;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+.banner .button{
+    float: left;
+    /* display: inline-block; */
+    margin: 0;
+}
+
+.banner-left img{
+    position: relative;
+    right: -100px;
+}
+
+.banner-left{
+    float: right;
+    width: 50%;
+    /* position: absolute; */
+}
+
+/* Contact */
+
+.contact{
+    text-align: center; 
+    /* margin-bottom: 50px; */
+}
+.contact-inner{
+    margin: 0 auto;
+    height: 140px;
+    width: 600px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+    position: relative;
+    bottom: 70px;
+    box-shadow: 0px 3px 15px rgba(217, 215, 215, 0.25);
+}
+.socialicons p{
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 10px;
+    color: #000000;
+    text-transform: capitalize;
+    /* position: relative;
+    top: 13px; */
+}
+.socialicons{
+    float: left;
+    width: 50%;
+    position: relative;
+    top: 28px;
+    left: 20px;
+    /* padding: 5px; */
+}
+.socialicons-left li a{
+    width: 40px;
+    height: 40px;
+    line-height: 53px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    display: inline-block;
+    
+}
+.socialicons-left li{
+    display: inline-block;
+    margin: 0 8px 0 0;
+}
+
+.socialicons1 p{
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 10px;
+    color: #000000;
+    text-transform: capitalize;
+    /* position: relative;
+    top: 13px; */
+}
+.socialicons1{
+    float: right;
+    width: 50%;
+    position: relative;
+    top: 28px;
+    right: 20px;
+    /* padding: 5px; */
+}
+.socialicons-right li a{
+    width: 40px;
+    height: 40px;
+    line-height: 53px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    display: inline-block;   
+}
+.socialicons-right li{
+    display: inline-block;
+    margin: 0 8px 0 0;
+}
+
+/* Fixed Contact */
+
+.contactus{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    padding: 15px 50px;
+    background-color: white;
+    border-radius: 3px;
+    position: fixed;
+    right: 0;
+    bottom: 90px;
+    border: 1px solid #daedfa;
+    /* position: absolute;
+    bottom: 1px;
+    right: 0px; */
+}
+.contactus a{
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
+    
+}
+
+/* Recent Shoot */
+
+.recentshoot{
+    overflow: hidden;
+    margin-bottom: 120px;
+}
+
+.recentshoot-inner{
+    display: inline-block;
+    margin-bottom: 50px;
+}
+.recentshoot-inner h6{
+    font-size: 26px;
+    color: #f86328;
+    text-transform: capitalize;
+}
+/* .recentshoot-inner img{
+   height: 28px;
+   width: 28px;
+   position: relative;
+   left: 175px;
+   bottom: 29px;
+} */
+.threeimages{
+    width: 100%;
+}
+.par-img{
+    /* margin-bottom: 100px; */
+    float: left;
+    width: 33.333%;
+    position: relative;
+}
+.child1 img{
+    width: 100%;
+}
+.par-img:hover .overlayer1{
+    background-color: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0.3;
+}
+.par-img:hover .overlayer2{
+    background-color: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.3;
+}
+.par-img:hover .overlayer3{
+    background-color: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.3;
+}
+
+/* Our Services */
+.ourservices{
+    overflow: hidden;
+    margin-bottom: 120px;
+}
+.ourservices-inner h6{
+    font-size: 26px;
+    color: #f86328;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+}
+
+/* left */
+.ourservices-left{
+    overflow: hidden;
+    width: 40%;
+    float: left;
+}
+.ourservices-left-inner{
+    display: inline-block;
+    /* height: 460px; */
+    width: 14px;
+    border-radius: 20px;
+    background-color: #f5f5f5;
+}
+.ourservices-left-inner1{
+    display: inline-block;
+    height: 70px;
+    width: 14px;
+    border-radius: 20px;
+    background-color: #aaaaaa;
+    position: relative;
+    top: 12px;
+}
+.menu{
+    display: inline-block;
+    /* width: 47%; */
+    text-align: center;
+    margin: 0 0 0 30px;
+}
+.menu li a{
+    font-size: 18px;
+    /* height: 50px; */
+    padding: 13px 0;
+    width: 200px;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #e5f4fe;
+    color: black;
+    margin-bottom: 20px;
+}
+/* .menu ul li {
+    margin: 0 0 20px 0;
+} */
+.menu li.active a{
+    box-shadow: 0px 3px 15px rgba(180, 179, 179, 0.25);
+}
+.menu li:hover a{
+    box-shadow: 0px 3px 15px rgba(180, 179, 179, 0.25);
+}
+
+/* .Right */
+.ourservices-right{
+    overflow: hidden;
+    width: 60%;
+    float: left;
+}
+.ourservices-right-inner img{
+    margin-bottom: 15px;
+}
+.ourservices-right h5{
+    font-size: 22px;
+    margin-bottom: 7px
+}
+.ourservices-right h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.ourservices-right .PV{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.ourservices-right .on-Words{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.ourservices-right .on-Words span{
+    font-size: 18px;
+    font-weight: 100;
+}
+.button3{
+    float: left;
+}
+.button3 a{
+    font-size: 18px;
+    /* float: right; */
+    background-color: tomato;
+    padding: 12px 24px;
+    color: white;
+    border-radius: 3px;
+    text-transform: capitalize;
+    display: inline-block;
+    margin-right: 20px;
+}
+.button4{
+    float: left;
+}
+.button4 a{
+    font-size: 18px;
+    /* float: right; */
+    background-color: tomato;
+    padding: 12px 24px;
+    color: white;
+    border-radius: 3px;
+    text-transform: capitalize;
+    display: inline-block;
+}
+/* videomaking */
+.videomaking{
+    overflow: hidden;
+    margin-bottom: 120px;
+}
+.videomaking-inner h6{
+    font-size: 26px;
+    color: #f86328;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+}
+.videomaking-inner ins{
+    float: right;
+    font-size: 18px;
+    color: #f86328;
+    position: relative;
+    bottom: 20px;
+}
+
+/* Packages */
+.Packages{
+    overflow: hidden;
+    margin-bottom: 120px;
+}
+.basic1{
+    display: inline-block;
+    margin: 0 5px;
+}
+.basic{
+   /* overflow: hidden; */
+   float: left;
+    width: 324px;
+    background-color: #e5f4fe;
+    padding: 30px 20px 30px 20px;
+    margin: 0 10px 0 10px;
+}
+.basic h6{
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+.basic .heading{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    font-size: 15px;
+    width: 100%;
+    line-height: 20px;
+    margin-bottom: 24px;
+}
+.basic-inner{
+    font-size: 15px;
+   line-height: 20px;
+    /* float: left; */
+    margin: 0 0 50px 10px;
+}
+ul li {
+    margin: 0 0 20px 0;
+}
+.Discuss1{
+    text-align: center;
+}
+.Discuss1 a{
+    font-size: 18px;
+    /* float: right; */
+    background-color: tomato;
+    padding: 12px 24px;
+    color: white;
+    border-radius: 3px;
+    text-transform: capitalize;
+    display: inline-block;
+}
+
+/* Making Style */
+.makingstyle{
+    overflow: hidden;
+    margin-bottom: 120px;
+}
+.makingstyle-inner h6{
+    font-size: 26px;
+    color: #f86328;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+}
+/* .fourimages{
+   margin: 0 10px 0 10px;
+} */
+.img-inner{
+    float: left;
+}
+.firstimg img{
+    margin: 0 7px 0 7px; 
+}
+.fourimages{
+    margin: 0 3px;
+}
+
+/* Typesofphotography */
+.Typesofphotography{
+    overflow: hidden;
+    margin-bottom: 120px;
+}
+.Typesofphotography-inner h6{
+    display: inline-block;
+    font-size: 26px;
+    color: #f86328;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+}
+.Typesofphotography-img {
+    position: relative;
+}
+
+.Typesofphotography-img-inner{
+    display: inline-block;
+    font-size: 26px;
+    /* line-height: 40px; */
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    position: absolute;
+    top: 70px;
+    right: 200px;
+}
+
+/* footer */
+.footer{
+    background-color: #000000;
+    overflow: hidden;
+    padding: 60px 50px 60px 50px;
+}
+.footer-left{
+    width: 30%;
+    float: left;
+}
+.logo img{
+    width: 130px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.logo p{
+    width: 67%;
+    font-size: 16px;
+    color: rgb(187, 187, 187);
+    line-height: 23px;
+}
+.footer-right{
+    width: 70%;
+    float: left;
+}
+.foursecetion h6{
+    font-size: 18px;
+    color: rgb(236, 234, 234);
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+.firsrsecetion a{
+    font-size: 16px;
+    color: rgb(187, 187, 187);
+    /* line-height: 40px; */
+}
+.link{
+    float: left;
+    /* display: inline-block; */
+    margin: 0 0 0 70px;
+}
+ul li {
+    margin: 0 0 20px 0;
+}
+.footer-right-left{
+    display: inline-block;
+    margin: 0 44px;
+}
+.lastfooter{
+    overflow: hidden;
+     /* width: 100%; */
+     padding: 30px 50px;
+    background-color: #000000;
+}
+.lastfooter hr{
+    width: 114%;
+    position: relative;
+    right: 100px;
+    bottom: 30px;
+   opacity: 0.2;
+}
+.lastfooter p{
+    text-align: center;
+    font-size: 16px;
+    color: rgb(187, 187, 187);
+}
+
+
+
+
+
+
